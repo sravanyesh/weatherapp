@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <center>
+    <div class="title">
+        <h1><b>Weather Forecast</b></h1>
+    </div>
+    <h2><%= date%></h2>
+
+<div class="first">
+    <form action="/" method="post">
+        <input type="text" placeholder="city name" name="city">
+        <button type="submit">Go</button>
+    </form>
+</div>
+    <div>
+        <h2><%= t%></h2>
+        <h2><%= des%></h2>
+        <h2><%= feel%></h2>
+        <h2><%= humidity%></h2>
+        <h2><%= press%></h2>
+    </div>
+</center>
+
+
+</body>
+
+</html>

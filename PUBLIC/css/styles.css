@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(199, 236, 253);
+}
+.first{
+  height: 70px;
+  width: 300px;
+  padding: 30px;
+  
+}
+.title{
+  padding-bottom: 10px;
+}
+button{
+  background-color:lightyellow;
+  border-radius: 10px;
+}
+
